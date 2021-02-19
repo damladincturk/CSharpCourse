@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPrime", "IsPrime\IsPrime.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{92BC32F3-0D2F-47F4-B0AC-840785D3EF0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{5166A149-0D45-49BD-9C09-525CBA0236C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -45,6 +47,10 @@ Global
 		{92BC32F3-0D2F-47F4-B0AC-840785D3EF0D}.Debug|anycpu.Build.0 = Debug|anycpu
 		{92BC32F3-0D2F-47F4-B0AC-840785D3EF0D}.Release|anycpu.ActiveCfg = Release|anycpu
 		{92BC32F3-0D2F-47F4-B0AC-840785D3EF0D}.Release|anycpu.Build.0 = Release|anycpu
+		{5166A149-0D45-49BD-9C09-525CBA0236C3}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{5166A149-0D45-49BD-9C09-525CBA0236C3}.Debug|anycpu.Build.0 = Debug|anycpu
+		{5166A149-0D45-49BD-9C09-525CBA0236C3}.Release|anycpu.ActiveCfg = Release|anycpu
+		{5166A149-0D45-49BD-9C09-525CBA0236C3}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
