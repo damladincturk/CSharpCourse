@@ -1,36 +1,27 @@
 ﻿using System;
+using Interfaces;
 
-namespace Interfaces
+namespace Interfacess
 {
     class MainClass
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //NewMethod();
 
-       }
-
-        interface IPerson {
-
-            public int Id { get; set; }
-            public string FirstName { get; set; }
-            public string LastName { get; set; }
-        }
-        class Customer : IPerson
-        {
-            public int Id { get ; set; }
-            public string FirstName { get; set; }
-            public string LastName { get; set; }
-            public string Adress { get; set; }
+            CustomerManager customerManager = new CustomerManager();
+            customerManager.Add(new SqlServerCustomerDal());
 
         }
-        class Student : IPerson
+
+        private static void NewMethod()
         {
-            public int Id { get; set; }
-            public string FirstName{ get ; set; }
-            public string LastName { get; set; }
-            public string Department { get; set; }
-             
+            PersonManager personManager = new PersonManager();
+            Customer customer = new Customer { Id = 1, FirstName = "Damla", LastName = "Dnt", Adress = "Istanbul" };
+            Student student = new Student { Id = 2, FirstName = "Hakan", LastName = "Dnt", Department = "Conputer" };
+            personManager.Add(student);
         }
     }
+
+
 }

@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{5166A149-0D45-49BD-9C09-525CBA0236C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{E6BA3684-135E-4E69-A1F3-4194CB058D31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{0394D59D-1E7D-40CE-A4AB-129BC296121D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,10 @@ Global
 		{5166A149-0D45-49BD-9C09-525CBA0236C3}.Debug|anycpu.Build.0 = Debug|anycpu
 		{5166A149-0D45-49BD-9C09-525CBA0236C3}.Release|anycpu.ActiveCfg = Release|anycpu
 		{5166A149-0D45-49BD-9C09-525CBA0236C3}.Release|anycpu.Build.0 = Release|anycpu
-		{E6BA3684-135E-4E69-A1F3-4194CB058D31}.Debug|anycpu.ActiveCfg = Debug|anycpu
-		{E6BA3684-135E-4E69-A1F3-4194CB058D31}.Debug|anycpu.Build.0 = Debug|anycpu
-		{E6BA3684-135E-4E69-A1F3-4194CB058D31}.Release|anycpu.ActiveCfg = Release|anycpu
-		{E6BA3684-135E-4E69-A1F3-4194CB058D31}.Release|anycpu.Build.0 = Release|anycpu
+		{0394D59D-1E7D-40CE-A4AB-129BC296121D}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{0394D59D-1E7D-40CE-A4AB-129BC296121D}.Debug|anycpu.Build.0 = Debug|anycpu
+		{0394D59D-1E7D-40CE-A4AB-129BC296121D}.Release|anycpu.ActiveCfg = Release|anycpu
+		{0394D59D-1E7D-40CE-A4AB-129BC296121D}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
