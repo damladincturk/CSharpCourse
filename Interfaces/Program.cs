@@ -9,9 +9,25 @@ namespace Interfacess
         {
             //NewMethod();
 
+            // Intro();
+
+            ICustomerDal[] customerDals = new ICustomerDal[] {
+
+                new SqlServerCustomerDal(),
+                new OracleServerCustomerDal()
+            };
+
+            foreach (var customer in customerDals)
+            {
+                customer.Add();
+            }
+
+        }
+
+        private static void Intro()
+        {
             CustomerManager customerManager = new CustomerManager();
             customerManager.Add(new SqlServerCustomerDal());
-
         }
 
         private static void NewMethod()
